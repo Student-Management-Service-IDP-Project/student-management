@@ -9,11 +9,11 @@ Core management service for the Student Management Application.
 
 `> Body:`
 
-```json
+```
 {
     username: "joedoe",
     course_name: "Analiza Matematica",
-    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODMwMjE1OTIsImN1c3RvbSI6eyJ1c2VybmFtZSI6Im5vdHNvZmluYWxib3NzIiwibmFtZSI6IkZpbmFsIEJvc3MifX0.V4GK6d7HOYoSRvmlehPzH3LFcINXiErEWMLnVzlFO1Q"
+    access_token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODMwMjE1OTIsImN1c3RvbSI6eyJ1c2VybmFtZSI6Im5vdHNvZmluYWxib3NzIiwibmFtZSI6IkZpbmFsIEJvc3MifX0.V4GK6d7HOYoSRvmlehPzH3LFcINXiErEWMLnVzlFO1Q"
 }
 ```
 
@@ -28,7 +28,7 @@ Core management service for the Student Management Application.
 
 `> Body:`
 
-```json
+```
 {
     course_name: "Analiza Matematica",
     weekday: "Monday",
@@ -36,7 +36,7 @@ Core management service for the Student Management Application.
     end_hour: "12",
     location: "EC105",
     max_students: "120",
-    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODMwMjE1OTIsImN1c3RvbSI6eyJ1c2VybmFtZSI6Im5vdHNvZmluYWxib3NzIiwibmFtZSI6IkZpbmFsIEJvc3MifX0.V4GK6d7HOYoSRvmlehPzH3LFcINXiErEWMLnVzlFO1Q"
+    access_token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODMwMjE1OTIsImN1c3RvbSI6eyJ1c2VybmFtZSI6Im5vdHNvZmluYWxib3NzIiwibmFtZSI6IkZpbmFsIEJvc3MifX0.V4GK6d7HOYoSRvmlehPzH3LFcINXiErEWMLnVzlFO1Q"
 }
 ```
 `> Response:`
@@ -48,12 +48,12 @@ Core management service for the Student Management Application.
 
 `> Request-type:` _POST_
 
-```json
+```
 {
     username: "joedoe",
     course_name: "Analiza Matematica",
     grade: 10,
-    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODMwMjE1OTIsImN1c3RvbSI6eyJ1c2VybmFtZSI6Im5vdHNvZmluYWxib3NzIiwibmFtZSI6IkZpbmFsIEJvc3MifX0.V4GK6d7HOYoSRvmlehPzH3LFcINXiErEWMLnVzlFO1Q"
+    access_token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODMwMjE1OTIsImN1c3RvbSI6eyJ1c2VybmFtZSI6Im5vdHNvZmluYWxib3NzIiwibmFtZSI6IkZpbmFsIEJvc3MifX0.V4GK6d7HOYoSRvmlehPzH3LFcINXiErEWMLnVzlFO1Q"
 }
 ```
 
@@ -66,18 +66,18 @@ Core management service for the Student Management Application.
 
 `> Request-type:` _GET_
 
-```json
+```
 {
     username: "joedoe",
     course_name: "Analiza Matematica",
-    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODMwMjE1OTIsImN1c3RvbSI6eyJ1c2VybmFtZSI6Im5vdHNvZmluYWxib3NzIiwibmFtZSI6IkZpbmFsIEJvc3MifX0.V4GK6d7HOYoSRvmlehPzH3LFcINXiErEWMLnVzlFO1Q"
+    access_token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODMwMjE1OTIsImN1c3RvbSI6eyJ1c2VybmFtZSI6Im5vdHNvZmluYWxib3NzIiwibmFtZSI6IkZpbmFsIEJvc3MifX0.V4GK6d7HOYoSRvmlehPzH3LFcINXiErEWMLnVzlFO1Q"
 }
 ```
 
 `> Response:`
 
 * __200 OK__
-    ```json
+    ```
     {
         grade: 10
     }
@@ -89,17 +89,17 @@ Core management service for the Student Management Application.
 
 `> Request-type:` _GET_
 
-```json
+```
 {
     username: "joedoe",
-    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODMwMjE1OTIsImN1c3RvbSI6eyJ1c2VybmFtZSI6Im5vdHNvZmluYWxib3NzIiwibmFtZSI6IkZpbmFsIEJvc3MifX0.V4GK6d7HOYoSRvmlehPzH3LFcINXiErEWMLnVzlFO1Q"
+    access_token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODMwMjE1OTIsImN1c3RvbSI6eyJ1c2VybmFtZSI6Im5vdHNvZmluYWxib3NzIiwibmFtZSI6IkZpbmFsIEJvc3MifX0.V4GK6d7HOYoSRvmlehPzH3LFcINXiErEWMLnVzlFO1Q"
 }
 ```
 
 `> Response:`
 
 * __200 OK__
-    ```json
+    ```
     {
         courses: [
             "Analiza Matematica",
